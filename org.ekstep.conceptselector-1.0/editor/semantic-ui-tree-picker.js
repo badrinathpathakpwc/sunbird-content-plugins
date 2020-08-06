@@ -61,7 +61,7 @@ var conceptModal;
             }
             widget.unbind("click");
             widget.on('click', function(e) {
-                console.log('click event received', nodes);
+                console.log('click event received');
                 modal.modal('show');
                 if (!nodes.length) {
                     if (config.url) {
